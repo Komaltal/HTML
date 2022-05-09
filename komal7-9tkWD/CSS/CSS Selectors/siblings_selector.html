@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <!-- Combinator/Child/Siblings -->
+    <style>
+        div+h1{
+            color: red;
+        }
+        div>h1{
+            color: green;
+        }
+        div>section>h1{
+            color: blue;
+        }
+        div~h1{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <p>Hello</p>
+    <div>
+        <h1>Hello Moon</h1>
+        <h1>Hello Sub</h1>
+        <section>
+            <h1>Hello Ameya</h1>
+            <h1>Hello Komal</h1>
+        </section>
+        <h1>Hello Rahul</h1>
+        <h1>Hello Anil</h1>
+    </div>
+    <h1>Hello Rohit</h1>
+    <h1>Hello Rahil</h1>
+</body>
+</html>
